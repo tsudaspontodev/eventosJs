@@ -11,5 +11,10 @@ console.log(document.body.childNodes[1].childNodes[1].textContent); // aqui pesq
 
 // Selecionar por TAG
 
-const listItens = document.getElementsByTagName('li')
+const listItens = document.getElementsByTagName('li');
 console.log(listItens);
+
+const botao = document.getElementById('btn');
+botao.addEventListener('click', function(){
+    alert("Você clicou no botão!!!!")
+});
