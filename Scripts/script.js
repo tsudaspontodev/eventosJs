@@ -11,10 +11,16 @@ console.log(document.body.childNodes[1].childNodes[1].textContent); // aqui pesq
 
 // Selecionar por TAG
 
-const listItens = document.getElementsByTagName('li');
-console.log(listItens);
+// const listItens = document.getElementsByTagName('li');
+// console.log(listItens);
 
-const botao = document.getElementById('btn');
-botao.addEventListener('click', function(){
-    alert("Você clicou no botão!!!!")
-});
+// const botao = document.getElementById('btn');
+// botao.addEventListener('click', function(){
+//     alert("Você clicou no botão!!!!")
+// });
+
+const corFundo = document.getElementById('btn');
+corFundo.addEventListener('click', function) {
+    document.body.style.backgroundColor ="#0000";
+    document.body.style.color = "#fff"
+}
