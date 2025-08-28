@@ -20,7 +20,7 @@ console.log(document.body.childNodes[1].childNodes[1].textContent); // aqui pesq
 // });
 
 const corFundo = document.getElementById('btn');
-corFundo.addEventListener('click', function()) {
+corFundo.addEventListener('click', function() {
     document.body.style.backgroundColor ="#0000";
     document.body.style.color = "#fff";
-}
+});
